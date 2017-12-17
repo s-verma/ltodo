@@ -54,6 +54,17 @@ todo_file is optional, if not supplied program reads from ~/.todo.list
 DEPENDENCIES:
 1. Python
 
+AUTOMATICALLY REMINDING AT LOGIN:
+
+One example for automatically reminding users for the tasks while loggin in can be done using startup features of your desktop environment to start this command (only works if xfce4-terminal is installed or XFCE environment):
+
+xfce4-terminal -e <path_to_ltodo.py_file>/ltodo.py  -H -T "Todos"
+where <path_to_ltodo.py_file> is the path where you have downloaded the ltodo.py file from this repository.
+Also for GNOME users:
+gnome-terminal -e <path_to_ltodo.py_file>/ltodo.py  -H -T "Todos" 
+For KDE users:
+konsole -e <path_to_ltodo.py_file>/ltodo.py --hold 
+
 Future Work:
 
 1. Adding support for the different time formats such as month/day/year or time in am/pm or different time zones can be included if I find the demand from the users in the issues.
