@@ -49,6 +49,8 @@ USAGE: ltodo.py [todo_file]
 todo_file is the file which program reads.
 todo_file is optional, if not supplied program reads from ~/.todo.list
 
+(remember to make ltodo.py executable before running it on command line.)
+
 DEPENDENCIES:
 1. Python
 
