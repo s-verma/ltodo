@@ -42,3 +42,6 @@ USAGE: ltodo [todo_file]
 todo_file is the file which program reads.
 todo_file is optional, if not supplied program reads from ~/.todo.list
 
+Future Work:
+
+1. Adding support for the different time formats such as month/day/year or time in am/pm or different time zones can be included if I find the demand from the users in the issues.
