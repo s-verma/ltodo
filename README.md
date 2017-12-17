@@ -44,10 +44,13 @@ REM; Car servicing; 12/1/2018 14:20
 
 as they fall before the current time.
 
-USAGE: ltodo [todo_file]
+USAGE: ltodo.py [todo_file]
 
 todo_file is the file which program reads.
 todo_file is optional, if not supplied program reads from ~/.todo.list
+
+DEPENDENCIES:
+1. Python
 
 Future Work:
 
